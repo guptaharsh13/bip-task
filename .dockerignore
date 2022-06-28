@@ -5,6 +5,7 @@
 /static/
 /media/
 /venv/
+.env
 
 *.sqlite3
 *.pyc
