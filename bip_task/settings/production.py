@@ -2,7 +2,7 @@ from .base import *
 
 DEBUG = False
 
-ALLOWED_HOSTS = ["bip-task.azurewebsites.net"]  # production domain
+ALLOWED_HOSTS = ["hg242322.pythonanywhere.com"]  # production domain
 
 SESSION_COOKIE_SECURE = True
 CRSF_COOKIE_SECURE = True
