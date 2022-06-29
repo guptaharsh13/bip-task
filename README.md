@@ -28,13 +28,13 @@ To get started
 - Clone the repo.
 
 ```shell
-git clone https://github.com/guptaharsh13/circulo
+git clone https://github.com/guptaharsh13/bip-task
 ```
 
 - Change into the directory.
 
 ```shell
-cd circulo
+cd bip-task
 ```
 
 ### Environment Variables
@@ -43,7 +43,7 @@ cd circulo
 touch .env
 ```
 
-**For running this project successfully you'll need to create a `.env` file and store your firebase credentials there like [`.env.sample`](https://github.com/guptaharsh13/circulo/tree/master/.env.sample).**
+**For running this project successfully you'll need to create a `.env` file and store your firebase credentials there like [`.env.sample`](https://github.com/guptaharsh13/bip-task/tree/master/.env.sample).**
 
 ### Local Build
 
