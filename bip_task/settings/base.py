@@ -92,10 +92,14 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = {
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
     'DEFAULT_THROTTLE_RATES': {
-        'youtube_videos': '65/min',
+        'burst': '65/min',
     }
 }
+
+DEFAULT_PAGINATION_LIMIT = 55
+MAX_PAGINATION_LIMIT = 55
 
 DEFAULT_FROM_EMAIL = "hg242322@gmail.com"
 
