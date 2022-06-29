@@ -1,17 +1,25 @@
 # Bip Task
 
-REST API Backend for Bip Task
+You can checkout the deployed app [here](https://hg242322.pythonanywhere.com/)
+- [Admin Panel](https://hg242322.pythonanywhere.com/bip-task/admin)
+  - username - admin
+  - password - admin
 
-## About the Backend
-
-- API
-  - Blog API should have 4 Models Posts, Tags, Comments, Authors
-  - Post can have many Tags
-  - Post can have many Comments
-  - Post can have one User
-  - CRUD API for Post/Tag/Comment
-- API documentation with Swagger
-- Databse for this SHOULD be SQLiteCode
+<details>
+<summary>About the Backend</summary>
+<ul>
+  <li>API</li>
+  <ul>
+    <li>Blog API should have 4 Models Posts, Tags, Comments, Authors</li>
+    <li>Post can have many Tags</li>
+    <li>Post can have many Comments</li>
+    <li>Post can have one User</li>
+    <li>CRUD API for Post/Tag/Comment</li>
+</ul>
+  <li>API documentation with Swagger</li>
+  <li>Databse for this SHOULD be SQLiteCode</li>
+</ul>
+</details>
 
 ## Tools and technology used
 
