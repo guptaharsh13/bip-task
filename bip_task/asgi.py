@@ -9,6 +9,6 @@ environ.Env.read_env(env_file=os.path.join(path, ".env"))
 
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE',
-                      f'circulo.settings.{env("django_env")}')
+                      f'bip_task.settings.{env("django_env")}')
 
 application = get_asgi_application()
